@@ -16,6 +16,4 @@ extension Optional where Wrapped == String {
     public func swiftyDefaultValue(value: String) -> String {
         return self ?? value
     }
-    
-    
 }
