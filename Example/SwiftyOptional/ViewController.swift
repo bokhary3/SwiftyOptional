@@ -7,17 +7,21 @@
 //
 
 import UIKit
+import SwiftyOptional
 
 class ViewController: UIViewController {
 
+    var optionalString: String? = "Hello World!"
+    var unssignedOptionalString: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        print("""
+            Wrapped not nil string \(optionalString.swiftyValue),
+            Wrapped nil string \(unssignedOptionalString.swiftyValue),
+            Wrapped nil string with default \(unssignedOptionalString.swiftyDefaultValue(value: "Hola"))
+            """)
     }
 
 }
