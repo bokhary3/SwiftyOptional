@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyOptional_Example' do
+  pod 'SwiftyOptional', :path => '../'
+
+  target 'SwiftyOptional_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
