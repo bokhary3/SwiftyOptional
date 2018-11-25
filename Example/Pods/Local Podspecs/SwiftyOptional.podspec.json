@@ -1,0 +1,22 @@
+{
+  "name": "SwiftyOptional",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftyOptional.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bokhary3/SwiftyOptional",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bokhary3": "elsayed.husseinn15@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bokhary3/SwiftyOptional.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftyOptional/Classes/**/*"
+}
