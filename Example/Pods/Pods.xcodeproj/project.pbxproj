@@ -16,7 +16,7 @@
 		79FE79EB4AABAB88E902058F3EF5D2FF /* Pods-SwiftyOptional_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8FE0FFD008A38473A90FCF15F5D508 /* Pods-SwiftyOptional_Tests-dummy.m */; };
 		8EB697A1424F2141F948D855DFE2C0E9 /* Pods-SwiftyOptional_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4653E6953A86A30613138FDB24A6D78C /* Pods-SwiftyOptional_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D559DF4C32895245F8B2C8B53F91782F /* SwiftyOptional-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB94BE4FC1445044C4F982138FE0BC /* SwiftyOptional-dummy.m */; };
-		DAEB50BD21AB3512008D2E4A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50BC21AB3512008D2E4A /* StringExtension.swift */; };
+		DAEB50C121AB37F1008D2E4A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C021AB37F1008D2E4A /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +68,8 @@
 		CC85152BA0869572F830DF3169A2B555 /* Pods-SwiftyOptional_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyOptional_Example-dummy.m"; sourceTree = "<group>"; };
 		D6BB94BE4FC1445044C4F982138FE0BC /* SwiftyOptional-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyOptional-dummy.m"; sourceTree = "<group>"; };
 		D9674E00EE8E5867BA712D8B6A025874 /* SwiftyOptional.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyOptional.xcconfig; sourceTree = "<group>"; };
-		DAEB50BB21AB3512008D2E4A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		DAEB50BC21AB3512008D2E4A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DAEB50BF21AB37F1008D2E4A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		DAEB50C021AB37F1008D2E4A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		DF8FE0FFD008A38473A90FCF15F5D508 /* Pods-SwiftyOptional_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyOptional_Tests-dummy.m"; sourceTree = "<group>"; };
 		EB4E22A49E5D48B1367BA6EB3233A4FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF100A442CEAE88B6824F793140DD7F0 /* Pods-SwiftyOptional_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftyOptional_Example-resources.sh"; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		CBF9BF5AAC9439F79E0B71E728716B2E /* SwiftyOptional */ = {
 			isa = PBXGroup;
 			children = (
-				DAEB50BA21AB3512008D2E4A /* Classes */,
+				DAEB50BE21AB37F1008D2E4A /* Classes */,
 				159F4461B1C13B459000C547A88B8665 /* Pod */,
 				F87AF34F4B7301914B9B10A306256A21 /* Support Files */,
 			);
@@ -205,13 +205,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DAEB50BA21AB3512008D2E4A /* Classes */ = {
+		DAEB50BE21AB37F1008D2E4A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DAEB50BB21AB3512008D2E4A /* .gitkeep */,
-				DAEB50BC21AB3512008D2E4A /* StringExtension.swift */,
+				DAEB50BF21AB37F1008D2E4A /* .gitkeep */,
+				DAEB50C021AB37F1008D2E4A /* StringExtension.swift */,
 			);
-			path = Classes;
+			name = Classes;
+			path = SwiftyOptional/Classes;
 			sourceTree = "<group>";
 		};
 		E2D960509C9D0CB5C16D65B99F2A998C /* Targets Support Files */ = {
@@ -358,8 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEB50C121AB37F1008D2E4A /* StringExtension.swift in Sources */,
 				D559DF4C32895245F8B2C8B53F91782F /* SwiftyOptional-dummy.m in Sources */,
-				DAEB50BD21AB3512008D2E4A /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
