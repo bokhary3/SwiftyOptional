@@ -16,6 +16,10 @@
 		79FE79EB4AABAB88E902058F3EF5D2FF /* Pods-SwiftyOptional_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8FE0FFD008A38473A90FCF15F5D508 /* Pods-SwiftyOptional_Tests-dummy.m */; };
 		8EB697A1424F2141F948D855DFE2C0E9 /* Pods-SwiftyOptional_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4653E6953A86A30613138FDB24A6D78C /* Pods-SwiftyOptional_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D559DF4C32895245F8B2C8B53F91782F /* SwiftyOptional-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BB94BE4FC1445044C4F982138FE0BC /* SwiftyOptional-dummy.m */; };
+		DA747B6F21C033DC00B792D0 /* BoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26641B21ADCCD0002D9E5C /* BoolExtension.swift */; };
+		DA747B7021C033E000B792D0 /* AnyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA747B6D21C031CD00B792D0 /* AnyExtension.swift */; };
+		DA747B7221C041C900B792D0 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA747B7121C041C900B792D0 /* UIImageExtension.swift */; };
+		DA747B7421C0431C00B792D0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA747B7321C0431C00B792D0 /* DateExtension.swift */; };
 		DAEB50C121AB37F1008D2E4A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C021AB37F1008D2E4A /* StringExtension.swift */; };
 		DAEB50C321AB3A3B008D2E4A /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C221AB3A3B008D2E4A /* IntExtension.swift */; };
 		DAEB50C521AB40B2008D2E4A /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C421AB40B2008D2E4A /* FloatExtension.swift */; };
@@ -71,6 +75,10 @@
 		CC85152BA0869572F830DF3169A2B555 /* Pods-SwiftyOptional_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftyOptional_Example-dummy.m"; sourceTree = "<group>"; };
 		D6BB94BE4FC1445044C4F982138FE0BC /* SwiftyOptional-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyOptional-dummy.m"; sourceTree = "<group>"; };
 		D9674E00EE8E5867BA712D8B6A025874 /* SwiftyOptional.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyOptional.xcconfig; sourceTree = "<group>"; };
+		DA26641B21ADCCD0002D9E5C /* BoolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolExtension.swift; sourceTree = "<group>"; };
+		DA747B6D21C031CD00B792D0 /* AnyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyExtension.swift; sourceTree = "<group>"; };
+		DA747B7121C041C900B792D0 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		DA747B7321C0431C00B792D0 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		DAEB50BF21AB37F1008D2E4A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		DAEB50C021AB37F1008D2E4A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		DAEB50C221AB3A3B008D2E4A /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
@@ -219,6 +227,10 @@
 				DAEB50C221AB3A3B008D2E4A /* IntExtension.swift */,
 				DAEB50C421AB40B2008D2E4A /* FloatExtension.swift */,
 				DAEB50C621AB40F1008D2E4A /* DoubleExtension.swift */,
+				DA26641B21ADCCD0002D9E5C /* BoolExtension.swift */,
+				DA747B6D21C031CD00B792D0 /* AnyExtension.swift */,
+				DA747B7121C041C900B792D0 /* UIImageExtension.swift */,
+				DA747B7321C0431C00B792D0 /* DateExtension.swift */,
 			);
 			name = Classes;
 			path = SwiftyOptional/Classes;
@@ -342,6 +354,9 @@
 					882D6F869353E43E6A86C2B287874973 = {
 						LastSwiftMigration = 1000;
 					};
+					EBDA40B2065FA4B154D06C3435854120 = {
+						LastSwiftMigration = 1000;
+					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -368,11 +383,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA747B7021C033E000B792D0 /* AnyExtension.swift in Sources */,
 				DAEB50C721AB40F1008D2E4A /* DoubleExtension.swift in Sources */,
 				DAEB50C121AB37F1008D2E4A /* StringExtension.swift in Sources */,
 				D559DF4C32895245F8B2C8B53F91782F /* SwiftyOptional-dummy.m in Sources */,
+				DA747B7421C0431C00B792D0 /* DateExtension.swift in Sources */,
+				DA747B6F21C033DC00B792D0 /* BoolExtension.swift in Sources */,
 				DAEB50C521AB40B2008D2E4A /* FloatExtension.swift in Sources */,
 				DAEB50C321AB3A3B008D2E4A /* IntExtension.swift in Sources */,
+				DA747B7221C041C900B792D0 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +566,7 @@
 			baseConfigurationReference = 0D4C3F8D964EC5C5857C4A109C03E350 /* Pods-SwiftyOptional_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -570,6 +590,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -582,6 +603,7 @@
 			baseConfigurationReference = 3C2C7A316622A79F03D2A66079E903D0 /* Pods-SwiftyOptional_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -606,6 +628,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
