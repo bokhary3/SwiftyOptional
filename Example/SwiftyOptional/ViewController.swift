@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var unssignedOptionalString: String?
     var anyValue: Any? = 7
     var stringValue: Any? = "Hello From Any to Any"
+    var array: [Int]? = [1, 2, 3, 4, 5]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
             Wrapped nil string with default \(unssignedOptionalString.swiftyDefault(value: "Hola"))
             any \(anyValue.swiftyInt)
             string value \(stringValue.swiftyString)
+            first element in array \(array.swiftyArray.first.swiftyValue)
             """)
     }
 

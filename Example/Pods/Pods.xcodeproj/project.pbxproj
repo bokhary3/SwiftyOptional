@@ -20,6 +20,8 @@
 		DA747B7021C033E000B792D0 /* AnyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA747B6D21C031CD00B792D0 /* AnyExtension.swift */; };
 		DA747B7221C041C900B792D0 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA747B7121C041C900B792D0 /* UIImageExtension.swift */; };
 		DA747B7421C0431C00B792D0 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA747B7321C0431C00B792D0 /* DateExtension.swift */; };
+		DAD08C5221C185D400095C93 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD08C5021C184DF00095C93 /* ArrayExtension.swift */; };
+		DAD08C5521C1914000095C93 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD08C5321C1901500095C93 /* DictionaryExtension.swift */; };
 		DAEB50C121AB37F1008D2E4A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C021AB37F1008D2E4A /* StringExtension.swift */; };
 		DAEB50C321AB3A3B008D2E4A /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C221AB3A3B008D2E4A /* IntExtension.swift */; };
 		DAEB50C521AB40B2008D2E4A /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB50C421AB40B2008D2E4A /* FloatExtension.swift */; };
@@ -79,6 +81,8 @@
 		DA747B6D21C031CD00B792D0 /* AnyExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyExtension.swift; sourceTree = "<group>"; };
 		DA747B7121C041C900B792D0 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		DA747B7321C0431C00B792D0 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		DAD08C5021C184DF00095C93 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		DAD08C5321C1901500095C93 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		DAEB50BF21AB37F1008D2E4A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		DAEB50C021AB37F1008D2E4A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		DAEB50C221AB3A3B008D2E4A /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
@@ -231,6 +235,8 @@
 				DA747B6D21C031CD00B792D0 /* AnyExtension.swift */,
 				DA747B7121C041C900B792D0 /* UIImageExtension.swift */,
 				DA747B7321C0431C00B792D0 /* DateExtension.swift */,
+				DAD08C5021C184DF00095C93 /* ArrayExtension.swift */,
+				DAD08C5321C1901500095C93 /* DictionaryExtension.swift */,
 			);
 			name = Classes;
 			path = SwiftyOptional/Classes;
@@ -388,6 +394,8 @@
 				DAEB50C121AB37F1008D2E4A /* StringExtension.swift in Sources */,
 				D559DF4C32895245F8B2C8B53F91782F /* SwiftyOptional-dummy.m in Sources */,
 				DA747B7421C0431C00B792D0 /* DateExtension.swift in Sources */,
+				DAD08C5521C1914000095C93 /* DictionaryExtension.swift in Sources */,
+				DAD08C5221C185D400095C93 /* ArrayExtension.swift in Sources */,
 				DA747B6F21C033DC00B792D0 /* BoolExtension.swift in Sources */,
 				DAEB50C521AB40B2008D2E4A /* FloatExtension.swift in Sources */,
 				DAEB50C321AB3A3B008D2E4A /* IntExtension.swift in Sources */,
