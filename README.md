@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyOptional.svg?style=flat)](https://cocoapods.org/pods/SwiftyOptional)
 
 ## Using
-SwiftyOtional will help you when using optional and have to work with ?? to get wrapped value,
+SwiftyOtional will help you when using Optional types and have to work with ?? to get Wrapped value,
 As example,  rather than to get first item in optional array like that: 
 
 ```swift
