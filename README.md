@@ -7,7 +7,7 @@
 
 ## Using
 SwiftyOtional will help you when using optional and have to work with ?? to get wrapped value,
-As example,  rather than to get first item in optional arrays like that: 
+As example,  rather than to get first item in optional array like that: 
 
 ```swift
 // Array
